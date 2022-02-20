@@ -167,6 +167,7 @@ def change_all_students():
         f.write(str(group_dic))
 
 def change_coins_of_choosed_students():
+    """Позволяет изменить количество лидеркоинов сразу нескольким ученикам"""
     choose_group()
     choosed_students = input("Введите фамилии учеников\n").split()
     how_much = int(input("Сколько лидеркоинов зачисляем? "))
